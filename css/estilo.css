@@ -1,0 +1,100 @@
+#contenedor{
+    width: 600px;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(197, 157, 97);
+    position: relative;
+}
+#cabeza{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    padding: 00px;
+    position: relative;
+    top: 20px;
+    background-color: aqua;
+}
+#cara{
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+    border-radius: 250px;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    z-index: 7;
+}
+#orejaI{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(87, 64, 5);
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    border-radius: 100px;
+    padding: 4%;
+}
+#orejaD{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(87, 64, 5);
+    display: inline-block;
+    position: absolute;
+    right: 0px;    
+    border-radius: 100px;
+    padding: 4%;
+}
+#fondo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    position: relative;
+    left: 13px;
+    background-color: rgb(204, 144, 13);
+}
+
+#cuerpo{
+    width: 600px;
+    height: 200px;
+    background-color: gray;
+    position: absolute;
+    top: 200px;
+    z-index: 6;
+    margin: auto;
+}
+#brazoI{
+    width: 120px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    left: 40px;
+    border-radius: 100px;
+}
+#brazoD{
+    width: 120px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 100px;
+}
+#torso{
+    width: 290px;
+    height: 250px;
+    background-color: rgb(102, 65, 11);
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    margin: auto;
+    border-radius: 100px;
+}
+#fondobrazo{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 100px;
+    position: relative;
+    bottom: 0px;
+    left: 5px;
+}
